@@ -1,0 +1,44 @@
+.img {
+  max-width: 100px;
+  height: 100px;
+}
+.headText {
+  font-size: 20px;
+}
+.mainText {
+  font-size: 16px;
+}
+.supText {
+  font-size: 12px;
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 2px;
+  width: 56px;
+}
+.mainDiv {
+  display: flex;
+  gap: 16px;
+  width: 548px;
+  border: 1px solid black;
+  padding: 20px;
+  max-height:142px;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.white {
+  color: black;
+  background-color: white;
+}
+.black {
+  color: white;
+  background-color: black;
+}
+@media (max-width: 1160px) {
+  .mainDiv {
+    max-width: 400px
+  }
+}
+

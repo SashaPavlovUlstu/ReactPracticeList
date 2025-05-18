@@ -1,0 +1,11 @@
+.postGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 6 равных колонок */
+  width: 548px;
+  gap: 16px 60px;
+}
+@media (max-width: 930px) {
+  .postGrid {
+    width: auto;
+  }
+}

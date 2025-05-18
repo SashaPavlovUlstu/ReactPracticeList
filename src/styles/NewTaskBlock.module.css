@@ -1,0 +1,22 @@
+.inner {
+  background: inherit;
+  max-width: 1100px;
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column;
+  gap: 24px;
+  color: white;
+  text-align: center;
+}
+.header {
+  font-size: 48px;
+  font-weight: bold;
+}
+.supText {
+  font-size: 16px;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
